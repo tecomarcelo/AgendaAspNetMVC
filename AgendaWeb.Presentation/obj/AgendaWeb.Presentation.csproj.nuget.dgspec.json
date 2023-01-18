@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Presentation\\AgendaWeb.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj",
+        "projectName": "AgendaWeb.Infra.Data",
+        "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Teco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Teco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Presentation\\AgendaWeb.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Presentation\\AgendaWeb.Presentation.csproj",
+        "projectName": "AgendaWeb.Presentation",
+        "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Presentation\\AgendaWeb.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Teco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Teco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj"
+              },
+              "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\AgendaWeb.Reports.csproj": {
+                "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\AgendaWeb.Reports.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\AgendaWeb.Reports.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\AgendaWeb.Reports.csproj",
+        "projectName": "AgendaWeb.Reports",
+        "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\AgendaWeb.Reports.csproj",
+        "packagesPath": "C:\\Users\\Teco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Reports\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Teco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Teco\\C# Aulas\\Aula10\\Aula 10 - 19-02-2022\\AgendaWeb\\AgendaWeb\\AgendaWeb.Infra.Data\\AgendaWeb.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.6, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
